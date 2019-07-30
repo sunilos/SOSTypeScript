@@ -14,7 +14,7 @@ while(num >=1) {
 }
 console.log("The factorial is "+factorial); 
 
-//Do while loop Example
+// Example of Do while Loop
 var n = 10;
 do {
  console.log(n);
