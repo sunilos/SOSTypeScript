@@ -26,3 +26,5 @@ function min(a, b) {
         return b;
     }
 }  
+console.log(sum(5,3))
+console.log(max(8,9))

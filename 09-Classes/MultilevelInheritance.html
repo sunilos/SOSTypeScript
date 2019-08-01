@@ -1,0 +1,22 @@
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="multilevelinheritance.js"></script>
+<script type="text/javascript">
+window.onload = function(){
+  var eng = {};
+  eng.name = "Ashmita";
+  eng.age = 21;
+  eng.empId = '0206ca123';
+  document.getElementById('name').innerHTML = "Name is " + ' ' + eng.name;
+  document.getElementById('age').innerHTML = "Age  is " + ' ' + eng.age;
+  document.getElementById('empid').innerHTML = "Employee Code is " + ' ' + eng.empId;
+}
+</script>
+<body>
+<div class="container" id="check">
+    <h1 id="name" style="color: blue;text-align: center;"> </h1>
+    <h2 id="age" style="color: blue;text-align: center;"></h2>
+    <h3 id="empid" style="color: blue;text-align: center;"></h3>
+ </div>
+</body>
+</html>

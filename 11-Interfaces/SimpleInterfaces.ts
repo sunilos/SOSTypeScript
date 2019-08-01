@@ -10,9 +10,8 @@ interface Student {
     name: String;  
     language: String;  
 }  
-let studentdata  = (type: Student): void => {  
-  console.log(type.name +  ' ' + 'Learn  ' + type.language + ' language.');  
-};  
-
-let check  = {name: 'Ram', language: 'Python'}
-studentdata(check)
+let stu = <Student>{};
+stu.name = "Anjali";
+stu.language = "Learn Python";
+console.log(stu.name);
+console.log(stu.language);

@@ -1,0 +1,21 @@
+<html>
+<script src="InterfaceClass.js"></script>
+<script src="interfaceinheritance.js"></script>
+<script type="text/javascript">
+window.onload = function(){
+  
+   var emp = new Employee();
+   emp.firstName = "Ram";
+   emp.lastName = "kapoor"; 
+   var fullname = emp.firstName +  '  ' + emp.lastName;
+   document.getElementById('hello').innerHTML = fullname;
+
+
+}
+</script>
+<body>
+<div class="container" id="check">
+    <h1 id="hello" style="color:brown;text-align: center;"> </h1>
+ </div>
+</body>
+</html>

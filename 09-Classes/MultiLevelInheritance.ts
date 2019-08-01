@@ -10,15 +10,28 @@
 class Person { 
    age:number;
    name:string;
+    constructor(age: number, name:string) {
+      this.age = age;
+      this.name = name;
+  }
 } 
  
-class Employee { 
-   empId:string; 
+class NewPerson extends Person  { 
+   empId:string;
+    constructor(empId: string,age:number,name:string) {
+       super(age,name)
+       this.empId = empId;
+     
+    }   
 } 
+
+interface Engineer extends Person, NewPerson {
+   name:string;
+   age:number;
+   empId:string;
+}
  
-interface Engineer extends Person, Employee {}
- 
-var obj:Engineer = {name:"Asmita", age:32, empId:"EMP023"}; 
+var obj = <Engineer>{name:"Asmita", age:32, empId:"EMP023"};
 console.log("Name:  "+obj.name);
 console.log("Age:  "+obj.age);
 console.log("Emp Id:  "+obj.empId);

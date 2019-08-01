@@ -8,13 +8,17 @@
 var IPerson = /** @class */ (function () {
     function IPerson() {
     }
-    return IPerson;
+    return Person;
 }());
-var IEmployee = /** @class */ (function () {
-    function IEmployee() {
+var NewPerson = /** @class */ (function (_super) {
+    __extends(NewPerson, _super);
+    function NewPerson(empId, age, name) {
+        var _this = _super.call(this, age, name) || this;
+        _this.empId = empId;
+        return _this;
     }
-    return IEmployee;
-}());
+    return NewPerson;
+}(Person));
 var obj = { name: "Asmita", age: 32, empId: "EMP023" };
 console.log("Name:  " + obj.name);
 console.log("Age:  " + obj.age);

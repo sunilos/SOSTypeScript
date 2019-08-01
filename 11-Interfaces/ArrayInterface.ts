@@ -11,16 +11,12 @@
 interface nameArray {  
   }  
 // use of the interface  
-let myNames: nameArray;  
+let myNames = <nameArray>{};  
 myNames = ['Ram', 'Shyam', 'Balram'];  
-  
+console.log(myNames[2]);
 // Array which return number  
 interface ageArray {  
  }  
-var myAges: ageArray;  
-myAges =[10, 18, 25];  
-console.log("My age is: " +myAges[1]);  
-
-var myName: nameArray;  
-myName = ['Ram', 'Shyam', 'Balram'];  
-console.log("My Name is: " +myName[2]);  
+ let myAge = <ageArray>{};  
+ myAge = ['10', '20', '30'];  
+ console.log(myAge[2]);
