@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <script src="SumNum.js"></script>
+
+    <script>
+        function calc(form) {
+            form.sum.value = sum(form.n1.value, form.n2.value);
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <H1> Sum Num </H1>
+    <form>
+        <input name="n1" onchange="calc(this.form)"> + <input name="n2" onchange="calc(this.form)"> = <input name="sum">
+    </form>
+</body>
+
+</html>

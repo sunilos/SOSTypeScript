@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <script src="Mathm.js"></script>
+
+    <script>
+        function calc(form) {
+            a = parseInt(form.n1.value);
+            b = parseInt(form.n2.value);
+            var math = new Mathm(a, b);
+            form.sum.value = math.sum();
+            form.max.value = math.max();
+            form.min.value = math.min();
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <H1> Test Math Class</H1>
+    <form>
+        Num1:<input name="n1" onchange="calc(this.form)" value="0"> <br>
+        Num2: <input name="n2" onchange="calc(this.form)" value="0"> <br>
+        Sum:  <input name="sum"><br>
+        Max:  <input name="max"><br>
+        Min:  <input name="min"><br>
+    </form>
+</body>
+
+</html>
