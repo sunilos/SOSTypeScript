@@ -6,8 +6,9 @@
 @Url www.SunilOs.com
 */
 
+
 let uname:string =  "Hello Ram";  
-let lname:string =  "How are You ?";
+let lname:string =  "How are You?";
 
 console.log("Message: " +uname);  
 console.log("Length: "+uname.length);  

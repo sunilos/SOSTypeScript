@@ -10,7 +10,7 @@
 function identity<T> (arg: T): T {
     return arg; 
     }
-    //example showing implementation of generics
+    //Example showing implementation of generics
     let output = identity <string>("Hello");
     let outputl = identity <number> (23);
     console.log(output);
