@@ -11,13 +11,14 @@ function a() {
     return msg;
 }
 a();
-console.log(a());
+document.write('<br>');
+document.write( "Variable value using var keyword  - " + a() + '<br>');
 //Define variable using let keyword
 var employeeName = "My Name is Shyam";
-console.log(employeeName);
+document.write("variable value using let keyword - " + employeeName + '<br>');
 //Define variable using const keyword
 function constTest() {
     var VAR = 10;
-    console.log("Value is: " + VAR);
+    document.write("variable value using const keyword -  " + VAR + '<br>');
 }
 constTest();
