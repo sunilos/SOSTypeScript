@@ -10,21 +10,21 @@ var a:number = 2;
 var b:number = 3;
  
 var result; 
- 
+document.write("<h4>Bitwise Operator</h4><br>");
 result = (a & b);     
-console.log("(a & b) => ",result);
+document.write("(a & b) => ",result + '<br>');
  
 result = (a | b);          
-console.log("(a | b) => ",result);  
+document.write("(a | b) => ",result+ '<br>');  
  
 result = (a ^ b);  
-console.log("(a ^ b) => ",result);
+document.write("(a ^ b) => ",result+ '<br>');
  
 result = (~b); 
-console.log("(~b) => ",result);
+document.write("(~b) => ",result+ '<br>');
  
 result = (a << b); 
-console.log("(a << b) => ",result); 
+document.write("(a << b) => ",result+ '<br>'); 
  
 result = (a >> b); 
-console.log("(a >> b) => ",result);
+document.write("(a >> b) => ",result+ '<br>');

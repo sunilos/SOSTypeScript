@@ -6,10 +6,12 @@
 @Url www.SunilOs.com
 */
 
-
+function GetTuple(){
 let empTuple = ["Ram Sharma", 12, "Typescript"];  
+
 console.log(+empTuple);  
 
 empTuple.push("Python");   // append value to the tuple at last
 
 console.log("Items: "+empTuple);  
+}

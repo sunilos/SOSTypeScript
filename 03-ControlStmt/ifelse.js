@@ -5,11 +5,10 @@
 @Copyright (c) SunilOS
 @Url www.SunilOs.com
 */
-
 var pizzaprice = 100;
 if (pizzaprice <= 100) {
-    console.log("I can buy Pizza!");
+    document.write("<h4>I can buy Pizza!</h4>");
 }
 else {
-    console.log("I cannot Buy Pizza!");
+    document.write("<h4>I cannot Buy Pizza!</h4>");
 }

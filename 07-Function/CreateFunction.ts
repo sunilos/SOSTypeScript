@@ -7,8 +7,9 @@
 */
  
 
-function display() {  
-    console.log("Hello Typescript!");  
+function display(name:string) {  
+    return name;
 }  
+display("Ram Kapoor");
 //Function Call  
-display(); 
+console.log(display("Ram")); 

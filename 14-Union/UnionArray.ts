@@ -5,7 +5,7 @@
 @Copyright (c) SunilOS  
 @Url www.SunilOs.com
 */
-
+function UnionArray(){
 let arrType:number[]|string[];   
 let i;   
 arrType = [1,2,3,4];  
@@ -19,4 +19,5 @@ console.log("String type array:")
   
 for(i = 0;i<arrType.length;i++){   
    console.log(arrType[i]);  
-}  
+   }  
+}

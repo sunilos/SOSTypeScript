@@ -6,12 +6,10 @@
 @Url www.SunilOs.com
 */
 
-function display(value: (number | string))  
+function Uniondisplay(value: (number | string))  
 {  
-    if(typeof(value) === "number")  
-        console.log('Given value is of type number.');  
-    else if(typeof(value) === "string")  
-        console.log('Given value is of type string.');  
+    value = 123456;
+    value = "Hello Ram";
 }  
-display(123);  
-display("Hello Ram");  
+Uniondisplay(123);  
+Uniondisplay("Hello Ram");  

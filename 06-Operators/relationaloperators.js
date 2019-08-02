@@ -7,11 +7,11 @@
 // 
 var a = 10;
 var b = 20;
-console.log(a == b); // return false
-console.log(a === b); // return false
-console.log(a != b); // return true
-console.log(a !== b); // return true
-console.log(a > b); // return false
-console.log(a >= b); // return false
-console.log(a < b); // return true
-console.log(a <= b); // return true
+document.write(a == b); // return false
+document.write(a === b); // return false
+document.write(a != b); // return true
+document.write(a !== b); // return true
+document.write(a > b); // return false
+document.write(a >= b); // return false
+document.write(a < b); // return true
+document.write(a <= b); // return true

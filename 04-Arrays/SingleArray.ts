@@ -7,6 +7,6 @@
  */
 
 let arr:number[];   
-arr = [1, 2, 3, 4]   
-console.log("Array[0]: " +arr[0]);   
-console.log("Array[1]: " +arr[1]);  
+arr = [1, 2, 3, 4];   
+document.write("Array[0]: " +arr[0] + '<br>');   
+document.write("Array[1]: " +arr[1]);  

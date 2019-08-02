@@ -11,6 +11,7 @@ while (num >= 1) {
     factorial = factorial * num;
     num--;
 }
+document.write("<h4>The factorial of Given Number  is " + factorial + '</h4>');
 console.log("The factorial is " + factorial);
 // Example of Do while Loop
 var n = 10;

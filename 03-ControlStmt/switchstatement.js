@@ -1,27 +1,27 @@
 var day = 4;
 switch (day) {
     case 0:
-        console.log("It is a Sunday.");
+        document.write("It is a Sunday.");
         break;
     case 1:
-        console.log("It is a Monday.");
+        document.write("It is a Monday.");
         break;
     case 2:
-        console.log("It is a Tuesday.");
+        document.write("It is a Tuesday.");
         break;
     case 3:
-        console.log("It is a Wednesday.");
+        document.write("It is a Wednesday.");
         break;
     case 4:
-        console.log("It is a Thursday.");
+        document.write("It is a Thursday.");
         break;
     case 5:
-        console.log("It is a Friday.");
+        document.write("It is a Friday.");
         break;
     case 6:
-        console.log("It is a Saturday.");
+        document.write("It is a Saturday.");
         break;
     default:
-        console.log("No such day exists!");
+        document.write("No such day exists!");
         break;
 }

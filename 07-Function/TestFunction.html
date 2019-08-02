@@ -1,0 +1,19 @@
+<html>
+<head>
+<script src="createfunction.js"></script>
+    <script>
+   function show(form){
+      
+        form.showname.value = display(form.name.value);
+    }
+</script>
+</head>
+<body>
+    <H1>Show Name </H1>
+    <form>
+    <input name="name" onchange="show(this.form)">
+    <input name="showname" readonly> 
+   
+    </form>
+    </body>
+</html>

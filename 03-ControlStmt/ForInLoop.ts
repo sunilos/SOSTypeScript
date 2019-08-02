@@ -7,7 +7,9 @@
 */
 
 let arr = [10, 20, 30, 40];
+document.write( "For in Loop Index Values - ");
 for (var index in arr) {
-    console.log(index); // prints indexes: 0, 1, 2, 3
+
+  document.write(index); // prints indexes: 0, 1, 2, 3
   }
-  console.log(index); // prints 3 
+  document.write(index); // prints 3 

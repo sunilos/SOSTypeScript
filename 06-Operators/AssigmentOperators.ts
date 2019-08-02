@@ -7,14 +7,14 @@
 */
 
 let a = 10;  let b = 5;
-console.log(a);   //  return 10
+document.write("<h4>Assignment  Operator <br></h4>");
 let c = a += b;
-console.log(c);   //return  15
+document.write("Addition - " + c + '<br>');   //return  15
 let d = a -= b;
-console.log(d);   // return 5
+document.write("Subtraction - " + d + '<br>');   // return 5
 let e = a *= b;
-console.log(e);   // return 50
+document.write( "Multiplication -  " + e + '<br>');   // return 50
 let f = a /= b;
-console.log(f);   // return 2
+document.write("Division - " + f + '<br>');   // return 2
 let g = a %= b;
-console.log(g);   // return 2
+document.write('Module - ' + g + '<br>');   // return 2

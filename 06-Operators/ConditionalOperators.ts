@@ -7,6 +7,7 @@
 */
 
 let num = 16;  
-let result = (num > 1) ? "True":"False"   
-console.log(result);   // return true
+let result = (num > 1) ? "True":"False"  
+document.write("<h4>Conditional Operator <br>"); 
+document.write(result);   // return true
 

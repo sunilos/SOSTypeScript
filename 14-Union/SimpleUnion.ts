@@ -6,10 +6,13 @@
 @Url www.SunilOs.com
 */
 
-let value: number|string|boolean;  
-value = 120;  
-console.log("Numeric value of the value: "+value);  
-value = "Welcome to Typescript";  
-console.log("String value of the value: "+value);  
-value =  true;
-console.log("String value of the value: "+value);  
+function SimpleUnion(value: number|string|boolean){
+    //let value: number|string|boolean;  
+    value = 120;  
+    console.log("Numeric value of the value: "+value);  
+    value = "Welcome to Typescript";  
+    console.log("String value of the value: "+value);  
+    value =  true;
+    console.log("String value of the value: "+value);  
+
+}

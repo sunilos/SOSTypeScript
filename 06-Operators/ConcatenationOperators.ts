@@ -8,4 +8,4 @@
 
 
 let message = "Welcome to " + "Typescript";  
-console.log("Result is: " +message); 
+document.write("Result is: "  + message); 

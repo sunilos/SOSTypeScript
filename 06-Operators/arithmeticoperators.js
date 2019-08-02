@@ -1,4 +1,11 @@
 "use strict";
+/* Example of Simple Arithmetic Operators
+ 
+@author SunilOS
+@version 1.0
+@Copyright (c) SunilOS
+@Url www.SunilOs.com
+*/
 exports.__esModule = true;
 var number1 = 10;
 var number2 = 20;
@@ -7,7 +14,8 @@ res = number1 + number2;
 res = number1 - number2;
 res = number1 * number2;
 res = number1 / number2;
-console.log("Add: " + res);
-console.log("Subtract: " + res);
-console.log("Multiply: " + res);
-console.log("Divide: " + res);
+document.write("<h4>Arithmentic Operator<h4><br>");
+document.write("Addition of two values - " + res + '<br>');
+document.write("Subtraction of two values - " + res + '<br>');
+document.write("Multiplication of two values -  " + res + '<br>');
+document.write("Division of two values - " + res + '<br>');

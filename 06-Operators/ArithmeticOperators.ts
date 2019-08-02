@@ -15,8 +15,8 @@ res = number1 + number2
 res = number1 - number2
 res = number1 * number2
 res =  number1 / number2
-
-console.log("Add: "+res)
-console.log("Subtract: "+res) 
-console.log("Multiply: "+res) 
-console.log("Divide: "+res) 
+document.write("<h4>Arithmentic Operator<h4><br>");
+document.write("Addition of two values - "+res + '<br>')
+document.write("Subtraction of two values - "+res + '<br>') 
+document.write("Multiplication of two values -  "+res + '<br>') 
+document.write("Division of two values - "+res + '<br>') 

@@ -11,10 +11,10 @@ let arr1 = [ 1, 2, 3];
 let arr2 = [ 4, 5, 6];  
 //Create new array from existing array  
 let copyArray = [...arr1];     
-console.log("CopiedArray: " +copyArray);  
+document.write("Copied one Array to other  -  " +copyArray + '<br>');  
 //Create new array from existing array with more elements  
 let newArray = [...arr1, 7, 8];  
-console.log("NewArray: " +newArray);  
+document.write("Create New Array: " +newArray + '<br>');  
 //Create array by merging two arrays  
 let mergedArray = [...arr1, ...arr2];  
-console.log("MergedArray: " +mergedArray);  
+document.write("Merged two Array: " +mergedArray + '<br>');  
