@@ -10,8 +10,8 @@
 let uname:string =  "Hello Ram";  
 let lname:string =  "How are You?";
 
-console.log("Message: " +uname);  
-console.log("Length: "+uname.length);  
+document.write("Message: " +uname);  
+document.write("Length: "+uname.length);  
 
 let combinestr:string =  uname + " \n" + lname 
-console.log(combinestr)
+document.write(combinestr)
