@@ -6,7 +6,6 @@
 @Url www.SunilOs.com
 */
   
-export{}
 var number1 = 10
 var number2 = 20
 var res
