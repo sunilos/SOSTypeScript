@@ -9,9 +9,9 @@
 function GetTuple(){
 let empTuple = ["Ram Sharma", 12, "Typescript"];  
 
-console.log(+empTuple);  
+document.write(empTuple);  
 
 empTuple.push("Python");   // append value to the tuple at last
 
-console.log("Items: "+empTuple);  
+document.write("After Push Items: "+empTuple);  
 }
