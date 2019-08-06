@@ -5,20 +5,17 @@ This Example shows how to add element in existing list
 @Copyright (c) SunilOS  
 @Url www.SunilOs.com
 */
-
-function GetElement(no)
+function GetElement(empTuple)
 {
-let empTuple = ["Ram Sharma", 25, "Typescript", "Python"];  
-console.log("Items: "+empTuple);  
-
-console.log("Length of Tuple Items before pop: "+empTuple.length);   // returns the tuple size  
-empTuple.pop();   // removed value to the tuple   
-console.log("Length of Tuple Items after pop: "+empTuple.length);  
-console.log("Items: "+empTuple);  
+document.write("Items: "+empTuple);  
+document.write("Tuple pop Items  : "+ empTuple.pop()); // removed value to the tuple   
+document.write("Length of Tuple Items before pop: "+empTuple.length);   // returns the tuple size  
+document.write("Tuple pop Items  : "+ empTuple.pop()); // removed value to the tuple   
+document.write("Length of Tuple Items after pop: "+empTuple.length); 
+document.write("Items: "+empTuple);  
 
 //Clear  or empty  the field of tuples
 
 }
-let empTuple1 = ["Shyam Sharma", 25, "Typscipt"];  
-empTuple1 = [];  
-console.log(empTuple1); 
+let empTuple = ["Ram Sharma", 25, "Typescript", "Python"];  
+GetElement(empTuple)
