@@ -9,13 +9,13 @@
 
 //This will Print Hello 5 times
 for (let i = 0; i < 5; i++) {
-  console.log ("Hello");
+ document.write("Hello");
 }
 
 //Example of For of Loop using  Array to print  index values
 let arr = [10, 20, 30, 40];
 for (var val of arr) {
-  console.log(val); // prints values: 10, 20, 30, 40
+  document.write(val); // prints values: 10, 20, 30, 40
 }
 
 
