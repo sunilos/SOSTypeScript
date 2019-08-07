@@ -12,11 +12,9 @@ function printNames() {
     }
     for (var i = 0; i < names.length; ++i) {
         console.log(names[i] + ",");
-        return names[i];
     }
 }
-var result = printNames("Ram", "Shyam", "Ritu", "Sheetal");
-console.log(result);
+printNames("Ram", "Shyam", "Ritu", "Sheetal");
 printNames("Ram");
 printNames("Ram", "Shyam", "Ambika");
 printNames("Balram", "Riya", "Pooja", "Priyanka", "Raj", "Neha");
