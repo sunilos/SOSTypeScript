@@ -9,11 +9,7 @@
 function displayName(name: string, greeting: string = "Hello") : string {  
     return greeting + ' ' + name + '!';  
 }  
-displayName('Typescript');//Returns "Hello Typescript!"  
-displayName('Typescript', 'Hi'); //Returns "Hi Typescript!".  
-displayName('Ram'); //Returns "Hello Sachin!"  
 
-
-console.log(displayName('Typescript'));
-console.log(displayName('Typescript', 'Hi'));
-console.log(displayName('Ram'));
+console.log(displayName('Typescript'));//Returns "Hello Typescript!"  
+console.log(displayName('Typescript', 'Hi'));//Returns "Hi Typescript!".
+console.log(displayName('Ram'));//Returns "Hello Sachin!"  
