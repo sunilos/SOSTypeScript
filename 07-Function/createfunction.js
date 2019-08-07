@@ -8,6 +8,6 @@
 function display(name) {
     return name;
 }
-display("Ram Kapoor");
+
 //Function Call  
 console.log(display("Ram"));
