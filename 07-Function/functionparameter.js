@@ -2,9 +2,7 @@ function displayName(name, greeting) {
     if (greeting === void 0) { greeting = "Hello"; }
     return greeting + ' ' + name + '!';
 }
-displayName('Typescript'); //Returns "Hello JavaTpoint!"  
-displayName('Typescript', 'Hi'); //Returns "Hi JavaTpoint!".  
-displayName('Ram'); //Returns "Hello Sachin!"  
-console.log(displayName('Typescript'));
-console.log(displayName('Typescript', 'Hi'));
-console.log(displayName('Ram'));
+
+console.log(displayName('Typescript'));//Returns "Hello Typescript!"  
+console.log(displayName('Typescript', 'Hi'));//Returns "Hi Typescript!".
+console.log(displayName('Ram'));//Returns "Hello Sachin!"  
