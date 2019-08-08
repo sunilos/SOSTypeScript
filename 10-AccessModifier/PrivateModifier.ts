@@ -6,12 +6,20 @@
 @Url www.SunilOs.com
 */
  
+
+ 
 class Student {  
     private studCode: number;  
-    studName: string;  
+    
+    public setStudCode(studcode){
+    this.studCode=studcode
+    }
+
+    public getStudCode(){
+  	return  this.studCode
+    }
 }  
   
-let stud = new Student();  
-stud.studCode = 011;  
-stud.studName = "Ram Sharma";  
-console.log(stud.studCode);
+let stud = new Student();
+stud.setStudCode(101)
+console.log("Student Code is : "+stud.getStudCode())
