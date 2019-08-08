@@ -8,9 +8,14 @@
 var Student = /** @class */ (function () {
     function Student() {
     }
+    Student.prototype.setStudCode = function (studcode) {
+        this.studCode = studcode;
+    };
+    Student.prototype.getStudCode = function () {
+        return this.studCode;
+    };
     return Student;
 }());
 var stud = new Student();
-stud.studCode = 011;
-stud.studName = "Ram Sharma";
-console.log(stud.studCode);
+stud.setStudCode(101);
+console.log("Student Code is : " + stud.getStudCode());
