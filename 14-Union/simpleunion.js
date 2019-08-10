@@ -7,7 +7,7 @@
 */
 function SimpleUnion(value) {
     //let value: number|string|boolean;  
-    value = 120;
+   // value = 120;
     document.write("<h4>Numeric value is - " + value + '<br></h4>');
     value = "Welcome to Typescript";
     document.write("<h4>String value is -  " + value + '<br></h4>');
