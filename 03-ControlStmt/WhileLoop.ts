@@ -17,6 +17,6 @@ document.write("The factorial is "+factorial);
 // Example of Do while Loop
 var n = 10;
 do {
- document.write(n);
+ console.log(n);
  n--;
 } while (n >= 1);

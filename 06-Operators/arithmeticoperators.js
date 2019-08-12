@@ -6,7 +6,7 @@
 @Copyright (c) SunilOS
 @Url www.SunilOs.com
 */
-
+exports.__esModule = true;
 var number1 = 10;
 var number2 = 20;
 var res;

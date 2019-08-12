@@ -6,8 +6,7 @@
 @Url www.SunilOs.com
  */
 
+import Employee = require("./Employee");
 
-import { Employee } from "./Employee";
-let empObj = new Employee("Ram Kapoor");
-empObj.displayEmployee(); 
-//Output: Employee Name: Ram kapoor
+let a = new Employee("Ram Kapoor");
+document.write("<h1 style='color:red;'>Employee Name is : " + a.displayEmployee() + '</h3>')

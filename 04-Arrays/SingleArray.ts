@@ -7,7 +7,6 @@
  */
 
 let arr:number[];   
-arr = [1, 2, 3, 4]; 
-document.write("<b>Single Array values - <br><b>");
+arr = [1, 2, 3, 4];   
 document.write("Array[0]: " +arr[0] + '<br>');   
 document.write("Array[1]: " +arr[1]);  

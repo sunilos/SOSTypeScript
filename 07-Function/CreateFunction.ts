@@ -10,6 +10,6 @@
 function display(name:string) {  
     return name;
 }  
-
+display("Ram Kapoor");
 //Function Call  
 console.log(display("Ram")); 

@@ -7,11 +7,11 @@ This Example shows how to delete existing  element from given list
 */
 
 function SimpleTuple(){
-let arrTuple = [1, "Ram", 2, "Shyam"];  
-document.write(arrTuple);  
+ let arrTuple = [1, "Ram", 2, "Shyam"];  
+console.log(arrTuple);  
 
 //accessing tuple Elements
 
-document.write(arrTuple[0]) 
-document.write(arrTuple[1])
+console.log(arrTuple[0]) 
+console.log(arrTuple[1])
 }

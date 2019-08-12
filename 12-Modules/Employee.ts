@@ -6,10 +6,14 @@
 @Url www.SunilOs.com
  */
  
-export class Employee {
+class Employee {
 empName: string;
     constructor(name: string) {
-        this.empName = name;}
+        this.empName = name;
+    }
  displayEmployee() {
+       return this.empName;
         console.log ("Employee Name: " + this.empName );
     } } 
+
+export = Employee;   

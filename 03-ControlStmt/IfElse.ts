@@ -9,7 +9,7 @@
 
 var pizzaprice : number = 100;
 if(pizzaprice <= 100){
-	document.write("I can buy Pizza!")
+	console.log("I can buy Pizza!")
 } else {
-document.write("I cannot Buy Pizza!")
+console.log("I cannot Buy Pizza!")
 }

@@ -6,9 +6,14 @@
 @Url www.SunilOs.com
  */
 
-function displayName(name: string, greeting: string ) : string {  
+function displayName(name: string, greeting: string = "Hello") : string {  
     return greeting + ' ' + name + '!';  
 }  
+displayName('Typescript');//Returns "Hello Typescript!"  
+displayName('Typescript', 'Hi'); //Returns "Hi Typescript!".  
+displayName('Ram'); //Returns "Hello Sachin!"  
 
-console.log(displayName('Ram','Hello'));//Returns "Hello Ram!"  
-console.log(displayName('Typescript', 'Hi'));//Returns "Hi Typescript!".
+
+console.log(displayName('Typescript'));
+console.log(displayName('Typescript', 'Hi'));
+console.log(displayName('Ram'));
